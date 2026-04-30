@@ -52,6 +52,7 @@ Last timestep: (batch, 256)
 Classifier: Linear(256→64) → ReLU → Linear(64→1)
 ↓
 Output: (batch,) — binary prediction
+
 ## Why CNN-LSTM?
 - **CNN** extracts local wave patterns (chirps, oscillations)
   from the raw time series
@@ -69,5 +70,4 @@ Output: (batch,) — binary prediction
 
 ## Tech Stack
 Python | PyTorch | SciPy | NumPy | Scikit-learn | Kaggle
-"""
-print(readme)
+
